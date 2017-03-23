@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<TextView
+        android:text="Available Networks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:id="@+id/textView"
+        android:textSize="14dp"
+        android:layout_marginLeft="20sp" />
+-->
+    <RelativeLayout
+        android:id="@+id/rl_wifi_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="top">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/iv_area_icon"
+            android:layout_marginLeft="100dp"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Device Name"
+            android:id="@+id/wifi_device_name"
+            android:textStyle="normal"
+            android:layout_alignParentStart="false"
+            android:layout_centerInParent="true"
+            android:textSize="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="2dp" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+
+</LinearLayout>
